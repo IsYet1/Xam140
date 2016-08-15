@@ -9,6 +9,16 @@
     <ResourceDictionary>
       <Color x:Key="bgColor">#c0c0c0</Color>
       <Color x:Key="fgColor">#606060</Color>
+
+      <!--#Region Styles-->
+      
+      <Style x:Key="infoLabelStyle" TargetType="Label">
+        <Setter Property="FontSize"         Value="22" />
+        <Setter Property="FontAttributes"   Value="Bold" />
+      </Style>
+      
+      <!--#EndRegion Styles-->
+    
     </ResourceDictionary>
   </ContentPage.Resources>
 	
