@@ -6,7 +6,7 @@ namespace TipCalculator
 	{
 		public App()
 		{
-			MainPage = new NavigationPage(new StandardTipPage());
+			MainPage = new NavigationPage(new CustomTipPage());
 		}
 	}
 }
