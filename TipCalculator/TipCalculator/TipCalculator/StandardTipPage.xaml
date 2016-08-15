@@ -12,8 +12,11 @@
 
       <!--#Region Styles-->
       
-      <Style x:Key="infoLabelStyle" TargetType="Label">
-        <Setter Property="FontSize"         Value="32" />
+      <Style x:Key="baseLabelStyle" TargetType="Label">
+        <Setter Property="FontSize"         Value="22" />
+      </Style>
+        
+      <Style x:Key="infoLabelStyle" TargetType="Label" BasedOn="{StaticResource baseLabelStyle}">
         <Setter Property="FontAttributes"   Value="Bold" />
         <Setter Property="TextColor"        Value="{DynamicResource fgColor}" />
       </Style>
